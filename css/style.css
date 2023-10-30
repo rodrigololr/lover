@@ -9,7 +9,7 @@
 
 html,body{
     height: 100%;
-    background-color: rgba(9, 9, 9, 0.864);
+    background-color: rgba(253, 0, 219, 0.864);
 }
 
 .center{
@@ -28,7 +28,7 @@ html,body{
 /**header**/
 
 header{
-    background-image: url(..//img/backgg.jfif);
+    background-color: rgba(133, 3, 115, 0.864);
     background-size: 85% 100%;
     background-position: center;
     width: 100%;
@@ -90,14 +90,28 @@ header.home #anna img{
 }
 
 
-
-.foto{
-    
+#home .center .foto{
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+
+.foto{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.foto p{
+    font-size: 60px;
+}
+
+
 
 
 
@@ -188,7 +202,13 @@ button:hover{
 
 
 
-
+.hola{
+    width: 100%;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 @media screen and (max-width:670px) {
@@ -210,12 +230,20 @@ button:hover{
     
     }
 
-    .foto{
+     #home .foto{
         margin-top: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .foto{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
 
     #ze{
@@ -235,14 +263,25 @@ button:hover{
     #anna{
         
         margin: 0 auto;
-        width: 200px;
+        width: 220px;
         height: 400px;
        
     }
 
     #anna img{
-        width: 200px;
+        width: 220px;
         height: 400px;
+    }
+
+    .foto p{
+        font-size: 40px;
+    }
+    .hola{
+        width: 100%;
+        font-size: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     
