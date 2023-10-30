@@ -20,6 +20,18 @@ $(function(){
     })
 
     $(function(){
+      new Carousel(document.getElementById("ze"), {
+          Autoplay : {
+            timeout : 3000
+          }
+      
+        }, {
+          Autoplay
+        });
+  
+      })
+
+    $(function(){
         $('#read_button').click(function(){
             var compact = $('.compact');
             compact.toggleClass('active');
